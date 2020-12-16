@@ -24,7 +24,7 @@ import pt.ua.ieeta.dicoogle.java.dicom.QueryLevel;
 
 /**
  *
- * @author Luís A. Bastião Silva - <bastiao@ua.pt>
+ * @author Luís A. Bastião Silva - <bastiao@bmd-software.com>
  */
 public class TestWrapper {
     

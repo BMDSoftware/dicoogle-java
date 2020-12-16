@@ -22,7 +22,7 @@ import java.util.Hashtable;
 
 /**
  *
- * @author Luís A. Bastião Silva <bastiao@ua.pt>
+ * @author Luís A. Bastião Silva <bastiao@bmd-software.com>
  */
 public class Study
 {

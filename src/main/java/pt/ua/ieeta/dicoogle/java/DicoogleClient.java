@@ -30,7 +30,7 @@ import pt.ua.ieeta.dicoogle.java.responses.XMLResponses;
 
 /**
  * 
- * @author Luís A. Bastião Silva <bastiao@ua.pt>
+ * @author Luís A. Bastião Silva <bastiao@bmd-software.com>
  */
 public class DicoogleClient implements IDicoogleClient
 {

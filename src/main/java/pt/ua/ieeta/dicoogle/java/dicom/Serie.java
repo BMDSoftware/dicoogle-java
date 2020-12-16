@@ -21,7 +21,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Luís A. Bastião Silva <bastiao@ua.pt>
+ * @author Luís A. Bastião Silva <bastiao@bmd-software.com>
  */
 public class Serie
 {

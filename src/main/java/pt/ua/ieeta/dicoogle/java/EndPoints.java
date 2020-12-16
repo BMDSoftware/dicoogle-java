@@ -20,7 +20,7 @@ package pt.ua.ieeta.dicoogle.java;
 
 /**
  *
- * @author Luís A. Bastião Silva <bastiao@ua.pt>
+ * @author Luís A. Bastião Silva <bastiao@bmd-software.com>
  */
 public class EndPoints 
 {
