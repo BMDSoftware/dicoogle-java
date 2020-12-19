@@ -16,17 +16,26 @@
  */
 
 
-package pt.ua.ieeta.dicoogle.java.dicom;
+package com.bmdsoftware.dicoogle.javaclient;
 
 /**
  *
  * @author Luís A. Bastião Silva <bastiao@bmd-software.com>
  */
-public enum QueryLevel 
+public class EndPoints 
 {
-    PATIENT, 
-    STUDY, 
-    SERIES, 
-    IMAGE;
-    
+    public static final String SEARCH = "search";
+    public static final String IMAGESEARCH = "imageSearch";
+    public static final String DIC2PNG = "dic2png";
+    public static final String DICTAGS = "dictags";
+    public static final String PLUGINS = "plugin";
+    public static final String INDEX = "indexer";
+    public static final String DIM = "dim";
+    public static final String FILE = "file";
+    public static final String DUMP = "dump";
+    public static final String TAGS = "tags";
+    public static final String IMAGE = "image";
+    public static final String ENUMFIELD = "enumField";
+    public static final String WADO = "wado";
+    public static final String EXAMTIME = "examTime";   
 }

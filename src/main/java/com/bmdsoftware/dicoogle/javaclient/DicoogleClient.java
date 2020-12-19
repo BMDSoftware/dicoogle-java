@@ -14,7 +14,7 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package pt.ua.ieeta.dicoogle.java;
+package com.bmdsoftware.dicoogle.javaclient;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,10 +23,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import com.bmdsoftware.dicoogle.javaclient.dicom.QueryLevel;
+import com.bmdsoftware.dicoogle.javaclient.responses.XMLDumpResponses;
+import com.bmdsoftware.dicoogle.javaclient.responses.XMLResponses;
 import org.restlet.resource.ClientResource;
-import pt.ua.ieeta.dicoogle.java.dicom.QueryLevel;
-import pt.ua.ieeta.dicoogle.java.responses.XMLDumpResponses;
-import pt.ua.ieeta.dicoogle.java.responses.XMLResponses;
 
 /**
  * 
@@ -55,7 +56,7 @@ public class DicoogleClient implements IDicoogleClient
         ClientResource resource = new ClientResource(this.endPoint + EndPoints.DUMP + "?uid=" + sopInstanceUID);
         
         // Customize the referrer property  
-        XMLDumpResponses xmlResponse = null ; 
+        XMLDumpResponses xmlResponse = null ;
         try {
             // Write the response entity on the console
             StringWriter writer = new StringWriter();
@@ -103,7 +104,7 @@ public class DicoogleClient implements IDicoogleClient
         }
         
         // Customize the referrer property  
-        XMLResponses xmlResponse = null ; 
+        XMLResponses xmlResponse = null ;
         try {
             // Write the response entity on the console
             StringWriter writer = new StringWriter();

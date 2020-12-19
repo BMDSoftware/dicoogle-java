@@ -16,13 +16,11 @@
  */
 
 
-package pt.ua.ieeta.dicoogle.java.responses;
+package com.bmdsoftware.dicoogle.javaclient.responses;
 
 import java.io.IOException;
 import java.io.StringReader;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -39,7 +37,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-import pt.ua.ieeta.dicoogle.java.dicom.Patient;
 
 /**
  *

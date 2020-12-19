@@ -15,7 +15,7 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package pt.ua.ieeta.dicoogle.java.dicom;
+package com.bmdsoftware.dicoogle.javaclient.dicom;
 
 import java.util.ArrayList;
 import java.util.Hashtable;

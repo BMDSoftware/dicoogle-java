@@ -16,7 +16,7 @@
  */
 
 
-package pt.ua.ieeta.dicoogle.java.responses;
+package com.bmdsoftware.dicoogle.javaclient.responses;
 
 import java.io.IOException;
 import java.io.StringReader;
@@ -37,11 +37,11 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-import pt.ua.ieeta.dicoogle.java.dicom.Image;
-import pt.ua.ieeta.dicoogle.java.dicom.Patient;
-import pt.ua.ieeta.dicoogle.java.dicom.QueryLevel;
-import pt.ua.ieeta.dicoogle.java.dicom.Serie;
-import pt.ua.ieeta.dicoogle.java.dicom.Study;
+import com.bmdsoftware.dicoogle.javaclient.dicom.Image;
+import com.bmdsoftware.dicoogle.javaclient.dicom.Patient;
+import com.bmdsoftware.dicoogle.javaclient.dicom.QueryLevel;
+import com.bmdsoftware.dicoogle.javaclient.dicom.Serie;
+import com.bmdsoftware.dicoogle.javaclient.dicom.Study;
 
 /**
  *

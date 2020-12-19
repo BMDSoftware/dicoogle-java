@@ -16,7 +16,7 @@
  */
 
 
-package pt.ua.ieeta.dicoogle.java;
+package com.bmdsoftware.dicoogle.javaclient;
 
 import java.util.List;
 import org.junit.After;
@@ -24,8 +24,8 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import pt.ua.ieeta.dicoogle.java.dicom.Image;
-import pt.ua.ieeta.dicoogle.java.dicom.QueryLevel;
+import com.bmdsoftware.dicoogle.javaclient.dicom.Image;
+import com.bmdsoftware.dicoogle.javaclient.dicom.QueryLevel;
 
 /**
  *

@@ -16,12 +16,12 @@
  */
 
 
-package pt.ua.ieeta.dicoogle.java;
+package com.bmdsoftware.dicoogle.javaclient;
 
 import java.io.File;
 import java.util.List;
 import java.util.Map;
-import pt.ua.ieeta.dicoogle.java.dicom.QueryLevel;
+import com.bmdsoftware.dicoogle.javaclient.dicom.QueryLevel;
 
 /**
  *
